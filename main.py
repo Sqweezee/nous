@@ -27,8 +27,8 @@ logger = logging.getLogger(__name__)
 
 # 📦 Список моделей
 MODELS = [
-    "DeepHermes-3-Mistral-24B-Preview",
-    "Hermes-3-Llama-3.1-405B",
+    "Hermes-4-70B",
+    "Hermes-4-405B",
 ]
 
 # 🔄 Циклический перебор моделей
@@ -120,3 +120,4 @@ def main():
 # 🚀 Запуск
 if __name__ == "__main__":
     main()
+
